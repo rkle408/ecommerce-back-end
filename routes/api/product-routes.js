@@ -93,7 +93,7 @@ router.post('/', async (req, res) => {
 });
 
 // update product
-router.put('/:id', async (req, res) => {
+router.put('/:id', (req, res) => {
   // try {
   //   const productData = await Product.update(req.body, {
   //     where: {
